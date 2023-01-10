@@ -1,0 +1,223 @@
+{
+  "id": "19463dcc-774f-4bd2-9fb5-5052be7c7766",
+  "version": "2.0",
+  "name": "Lab5_shivam",
+  "url": "https://magento.softwaretestingboard.com",
+  "tests": [{
+    "id": "05854dd2-72e7-4fd1-8468-8156c6ac7325",
+    "name": "lab5_shivam",
+    "commands": [{
+      "id": "cd0542b8-363b-4b4a-9a55-b06d91b8a4a8",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96ce9f04-4cba-4f26-839f-3d3e6dc58315",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f3f46ac-5c43-4bca-bd53-637f0615d478",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gear",
+      "targets": [
+        ["id=ui-id-6", "id"],
+        ["linkText=Gear", "linkText"],
+        ["css=#ui-id-6", "css:finder"],
+        ["xpath=//a[@id='ui-id-6']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/gear.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f1e6532-d83f-4803-afdc-0877f3b42ffc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bags",
+      "targets": [
+        ["linkText=Bags", "linkText"],
+        ["css=dd .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bags')]", "xpath:link"],
+        ["xpath=//dl[@id='narrow-by-list2']/dd/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/gear/bags.html')])[3]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7073cb56-ac17-4134-bf69-56a89d134377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .product-image-photo",
+      "targets": [
+        ["css=.item:nth-child(1) .product-image-photo", "css:finder"],
+        ["xpath=//img[@alt='Image']", "xpath:img"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/ol/li/div/a/span/span/img", "xpath:idRelative"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dff4cb2-eee8-43f6-9839-c6a5f260fdd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb6de23b-0dee-4008-a02f-8ba06fec5f8b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//main/div/div[2]/div/div/div",
+      "targets": [
+        ["css=.message-success > div", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "You added Push It Messenger Bag to your shopping cart."
+    }, {
+      "id": "8f0141b4-f0da-43a4-8786-8475478ba3db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart",
+      "targets": [
+        ["css=.showcart", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98a0f83-db06-485a-a7a6-52206516356d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "735cd681-1e66-4a7e-afb0-0157dc5ad61f",
+    "name": "lab5_shivam_two",
+    "commands": [{
+      "id": "2b6599c0-bbc6-4e0e-bd2c-f6488b3dbf21",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4ff0afc-4b26-4049-b99a-1883f54dd2a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "122bf4a1-752a-463b-9885-886811ef1fa8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gear",
+      "targets": [
+        ["id=ui-id-6", "id"],
+        ["linkText=Gear", "linkText"],
+        ["css=#ui-id-6", "css:finder"],
+        ["xpath=//a[@id='ui-id-6']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/gear.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07c1f859-2458-42db-80fc-b546e4eb8568",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bags",
+      "targets": [
+        ["linkText=Bags", "linkText"],
+        ["css=dd .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bags')]", "xpath:link"],
+        ["xpath=//dl[@id='narrow-by-list2']/dd/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/gear/bags.html')])[3]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68f67f3-11cd-4f7d-ab02-958e1a19646e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(3) .product-image-photo",
+      "targets": [
+        ["css=.item:nth-child(3) .product-image-photo", "css:finder"],
+        ["xpath=(//img[@alt='Image'])[3]", "xpath:img"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/ol/li[3]/div/a/span/span/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/a/span/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f23025-0464-452a-a7a7-b7a3fe929238",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "385c130c-61ea-457a-8580-8cc26104484b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//main/div/div[2]/div/div/div",
+      "targets": [
+        ["css=.message-success > div", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "You added Driven Backpack to your shopping cart."
+    }, {
+      "id": "67aa19ab-255b-469c-8b3b-689e447061ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart",
+      "targets": [
+        ["css=.showcart", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86dad8ed-a743-4464-b27e-87e720cf502e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "681d61d9-a958-4fa6-b957-aa5531c30b6d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05854dd2-72e7-4fd1-8468-8156c6ac7325"]
+  }],
+  "urls": ["https://magento.softwaretestingboard.com/"],
+  "plugins": []
+}
